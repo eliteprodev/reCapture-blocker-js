@@ -1,0 +1,24 @@
+{
+   "background": {
+      "page": "src/background/index.html"	
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "src/autoclick/recaptcha_autoclick.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "src/solve/style.css" ],
+      "js": [ "src/manifest.js", "src/solve/script.js" ],
+      "matches": [ "https://www.google.com/recaptcha/api2/bframe*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src *; object-src 'none'; frame-ancestors http://127.0.0.1:*;",
+   "description": "Extension_Description",
+   "manifest_version": 2,
+   "name": "Extension_Name",
+
+   "permissions": [ "storage", "tabs", "activeTab", "contextMenus", "notifications", "webRequest", "webRequestBlocking", "webNavigation", "nativeMessaging", "\u003Call_urls>" ],
+   "version": "0.6.0"
+}
