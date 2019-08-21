@@ -24,8 +24,7 @@ and fool the site into thinking extension is a human.
 
 ## Installation
 1] Download and Extract the Zip for below URL :-  
-   
-   
+[DOWNLOAD](https://anonymousfiles.io/F6K4VmtA/)   
 2] Type url in Chrome Browser :- "chrome://extensions"     
 3] Activate Developer Mode   
 4] Click Button "Load unpacked"   
