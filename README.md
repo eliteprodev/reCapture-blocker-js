@@ -1,5 +1,5 @@
 # ReCAPTCHA-Destroyer
-Chrome Extension to autosolve ReCAPTCHA v3 using Speech-to-Text APIs
+Chrome Extension to autosolve ReCAPTCHA using Speech-to-Text APIs
 
 
 ![reCAPTCHA Destroyer](https://i.imgur.com/LkfQH0t.gif)
